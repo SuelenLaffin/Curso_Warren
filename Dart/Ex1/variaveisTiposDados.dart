@@ -100,14 +100,29 @@ void main(){
   
 // ];
 
-Map meuMap = {'nome':'Suelen'};
-Set<Map> meuSet = {meuMap,meuMap};
-List<Set> sets = [meuSet, meuSet];
+// Map meuMap = {'nome':'Suelen'};
+// Set<Map> meuSet = {meuMap,meuMap};
+// List<Set> sets = [meuSet, meuSet];
 
-print(sets[0].elementAt(0)['nome']);
+// print(sets[0].elementAt(0)['nome']);
 
 
+// Exercício
+//Criar uma variável de cada tipo:
 
+String nome = "Marlise";
+int idade = 43;
+double altura = 1.70;
+bool temFilhos = true;
+List <String> filhas = ['Maria Cecília', 'Gabrielle', 'Suelen'];
+Set <int> idadeFilhas = {4,17,22};
+Map <String,String> alimentos = {
+
+  'Massa' : 'Macarrão',
+  'Doce'  : 'Bolo',
+  'Fritura' : 'Coxinha'
+
+};
 
   
 
