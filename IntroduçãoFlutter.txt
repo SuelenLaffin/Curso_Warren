@@ -1,0 +1,78 @@
+FLUTTER (framework)
+
+Imperativo: seria como fazer, assertivo e traz um passo a passo.
+
+Declarativo: quer o resultado, não importando o passo a passo, quer o resultado final. Ex: o button.
+
+Nativo vs Multiplataforma
+
+Nativo é o modo tradicional para desenvolvimento de aplicações mobile. Em outras palavras, a equipe de desenvolvimento cria um aplicativo   
+para cada sistema operacional no qual o app será lançado.
+
+Multiplataforma diz respeito a criação de um aplicativo por meio de um único processo de desenvolvimento onde o resutado final serão apps lançados
+em plataformas diferentes(Android e IOS, por exemplo).
+
+NATIIVO
+Vantagens: 
+- Capacidade de proporcionar uma experiência de usuário mais característica do sistema operacional do app;
+- Desenvolvimento com SDKs e IDE do próprio sistema operacional, extraindo o máximo do sistema operacional.
+
+Desvantagens:
+- Necessidade de quipes de desenvolvimento especializadas para cada S.O;
+- Custo elevado para manter mais de uma equipe de desenvolvimento;
+- Mais tempo dedicado para p desenvolvimento e release.
+
+MULTIPLATAFORMA
+Vantagens: 
+- Permite o desenvolvimento de apps para diversas plataformas mobile, a partir de um código;
+- Não requer a existênciae quipes de desenvolvimento específicas para cada S.O;
+- Acelera o tempo de desenvolvimento;
+- Custos são menores, pois a equipe é mais enxuta;
+
+Desvantagens:
+- Apesar das ferramentas estarem se aproximando das características gráfica e nativas de cada sistea mobile, ainda há uma desvantagem considerável
+quando o assunto é a experiência do usuário(UX).
+
+Conhecendo os widgets:
+-Quase tudo no Flutter é um Widget;
+-Um Widget é um componente visual;
+Ex:
+ Text('Olá Mundo'),
+ Image.network('linkaqui'),
+
+STATEFUL WIDGET x STATELESS WIDGET
+
+STATEFUL WIDGET
+- Tem estado, um estado é uma informação ou grupo de informações que são alteradas durante o tempo de execução do aplicativo.
+Por exemplo, o contador do Flutter. (App Pdadrão)
+
+STATELESS WIDGET
+
+- Não tem estado, a informação permanece a mesma durante a execução do App. Por exemplo um texto estático.
+
+CONSTRUÇÕES DE LAYOUTS
+ADAPTATIVO: seria adaptar as informações nas diferentes telas.
+RESPONSIVO: é você abrir o layout em diversas telas(tv, notebook, tablet, celular), e em todas elas estiverem ok, com as mesmas informações sem afetar a visualização.
+
+
+SPLASH SCREENS
+
+- A tela inicial do seu App.
+
+ASSETS
+ É a pasta de arquivos que estão localmente no seu computador, não precisando de internet para ser utilizado.
+
+
+ DEBUG DA APLICAÇÃO
+
+-Como fazer debug no Flutter.
+
+-Breakpoints
+
+
+ESTRUTURA DE UM PROJETO EM FLUTTER 
+
+
+
+
+
